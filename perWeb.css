@@ -1,0 +1,148 @@
+/*global styling*/
+body{
+	color: #45425c;
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+	 overflow-x: hidden;
+}
+h1, h2,p {
+font-family: 'Source Sans Pro', sans-serif;
+color: black;
+padding-left: 100px;
+width: 70%;
+margin-left: 300px;
+}
+
+
+img{
+	max-width: 100%;
+	height:auto;
+}
+
+/*mobile styling*/
+
+.header .hamburger-menu {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 55px;
+    cursor: pointer;
+}
+
+/*header styling*/
+.header{
+	background: #45425c;
+	padding-top: 75px;
+	position: fixed;
+	height: 100%;
+	width: 240px;
+	color: #EEE7F1;
+}
+.header .social{
+	padding-left: 50px;
+}
+.header .main-nav ul{
+	list-style: none;
+
+	
+}
+.header .main-nav li{
+
+}
+
+.header .main-nav li a{
+ 	font-family: 'Source Sans Pro', sans-serif;
+ 	color: white;
+ 	font-weight: 100;
+ 	font-size: 20px;
+
+}
+
+#copyRight{
+	color: #E5DEE8;
+	font-size: 10px;
+	padding-left: 50px;
+	bottom: -200px;
+	position: relative;
+	
+}
+
+.social a{
+ color:white;
+ align-content: center;
+
+}
+
+hr{
+	 width: 100px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding-left: -50px;
+}
+
+/*Main content section headers*/
+
+
+/*home styling*/
+
+
+
+#beginning{
+	padding-top: 50px;
+	color:  #f8f8f8;
+}
+
+.lisa{
+	font-family: 'Pacifico', cursive;
+	font-weight: 50;
+	font-size: 30px;
+	text-align: center;
+
+}
+#home{
+    width: 100%;
+    height: 600px;
+    font-family: "Lato";
+    color: ;
+	background-image: url(https://lh3.googleusercontent.com/e_t5vIIu5M-oW9AhJ8oCkjw4Z9LQkJec7PTdn7F77Rw8HZvrs9_ex-pz8fzRcuitkoqJhLQCYhlF2q1FdZNj6mVx6u7wUUEP518ayo3hGnGWDOxHTwAz0QMVleNYtdE8xjjEkRIxfg=w2400);
+	background-size: cover;
+	 background-position: center; 
+
+}
+
+
+#home .quote{
+	 margin: 0 auto;
+    top: calc(50% - 60px);
+    position: relative;
+    width: 500px;
+    z-index: 1;
+}
+/**/
+section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+}
+
+/*programming styling*/
+/*#skill-icons{
+	list-style: none;
+}
+#skill-icons li{
+	margin-left: 370px;
+	padding: 25px;
+}*/
+
+.container{
+	margin-left: 370px;
+	padding-left: 25px;
+	color: #662682;
+}
+
+
+
+
