@@ -1,34 +1,37 @@
 /*Nav logic*/
-/*$(function(){
-	"use strict";
 
-	$(".navigate").onePageNav({
-		   currentClass: 'current',
-        changeHash: false,
-        scrollSpeed: 700,
-        scrollThreshold: 0.5,
-        easing: 'easeInOutCubic'
-	});
+	
+//social icon animations
 
-scroll motion navigator
-    $(".hamburger-menu, .main-nav ul li a").on( 'click', function() {
-        $(".header").toggleClass("pushed");
-        $(".main-content").toggleClass("main-pushed");
-        $('.bar').toggleClass('animate');
+
+//scroll logic
+ $(document).ready(function(){
+      $('a[href^="#"]').on('click', function(e){
+        e.preventDefault();
+        var target = this.hash;
+        var $target = $(target);
+
+      $('html, body').animate({
+        'scrollTop': $target.offset().top
+      }, 1000, 'swing', function(){
+        window.location.hash = target;
+      });
+      });
     });
 
- });
-*/
 
-$(document).ready(function() {
+//mobile menu and hamburger
 
-	$('a.scrollto').click(function(e){
-		$('html,body').scrollTo(this.hash, this.hash, {gap:{y:-120}});
-		e.preventDefault();
+  // Works everywhere
+$(document).ready(function () {
 
-		if ($('.navbar-collapse').hasClass('in')){
-			$('.navbar-collapse').removeClass('in').addClass('collapse');
-		}
-	});
+  // Hide/show animation hamburger function
+  $('.navbar-toggler').on('click', function () {
 
-/*hamburger menu*/
+    // Take this line to first hamburger animations
+    $('.animated-icon1').toggleClass('open');
+
+  });
+
+});
+/*mobile logic*/
