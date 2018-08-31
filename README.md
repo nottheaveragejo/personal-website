@@ -1,2 +1,2 @@
 # personal-website
-The name sayas it all
+I made website. I coded website. You see fruits of labor.
