@@ -1,5 +1,11 @@
 /*Nav logic*/
 
+     $(function() {
+          $('.toggle').on('click',function() {
+            $('.main-nav ul').toggleClass('open');
+            $('.main-nav').toggleClass('open');
+          });
+        });
 	
 //social icon animations
 
@@ -18,20 +24,34 @@
       });
       });
     });
+//sticky nav logic
 
 
-//mobile menu and hamburger
-
-  // Works everywhere
-$(document).ready(function () {
-
-  // Hide/show animation hamburger function
-  $('.navbar-toggler').on('click', function () {
-
-    // Take this line to first hamburger animations
-    $('.animated-icon1').toggleClass('open');
-
+$(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 280) {
+      $('.main-nav').addClass('navbar-fixed');
+    }
+    if ($(window).scrollTop() < 281) {
+      $('.main-nav').removeClass('navbar-fixed');
+    }
   });
-
 });
-/*mobile logic*/
+
+//hover over technologies animation
+const animation = document.querySelectorAll('.tech-icon');
+animation.addEventListener("click", function(){
+  console.log('its working');
+})
+console.log(animation);
+// addEventListener("click", function(){console.log("its working")})
+
+// $(function(){
+//   $('.fab').on('mouseover')
+// }document).getElementByClassName('fab');
+// social.addEventListener('mouseover', console.log('its work'))
