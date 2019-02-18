@@ -216,7 +216,8 @@ mobile resizing ==================================*/
 		padding-bottom: 80%;
 	}
 #webDeveloper{
-	min-height: 800px;
+/* 	min-height: 800px; */
+	height:100%;
 }
 /*header styling*/
 /*.header{
