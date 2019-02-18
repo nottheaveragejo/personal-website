@@ -175,7 +175,7 @@ mobile resizing ==================================*/
 }
 
   .main-nav.open{
-  	 height: 60vh;
+  	 height: 90vh;
 		/* background-color: #eaa0a2; */
 		background-color: #403B3B;
   }
@@ -345,7 +345,7 @@ section{
 	height: 100vh;
 }
 #webDeveloper{
-	height: 190vh;
+	height: 240vh;
 	border: 20px solid #ffffff;
 	background-color: #FCF9F9;
 
