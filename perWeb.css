@@ -136,7 +136,7 @@ mobile resizing ==================================*/
 
 @media all and (max-width:1000px){
 	.main-nav{
-		height: 30vh;
+		height: 40vh;
 		background-color: #403B3B;
 		 /* background-color: #eaa0a2; */
 		 margin-bottom: 10px;
@@ -345,7 +345,7 @@ section{
 	height: 100vh;
 }
 #webDeveloper{
-	height: 150vh;
+	height: 190vh;
 	border: 20px solid #ffffff;
 	background-color: #FCF9F9;
 
